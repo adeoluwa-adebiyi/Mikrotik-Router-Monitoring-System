@@ -1,7 +1,7 @@
 # Mikrotik-Router-Monitoring-System
 SNMP bases Router Monitoring System for Mikrotik Routers
 
-NB: This PHP Web application communicates with a MySQL server.
+NB: This PHP Web application communicates with a MySQL server. Contact me for Database Schema
 
 ## Features
 - Automatic router interface discovery
