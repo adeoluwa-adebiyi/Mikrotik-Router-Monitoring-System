@@ -71,6 +71,7 @@
 											echo table_info('Power',$health_monitor->getBoardPowerValue()[0]." W");
 											echo table_info('Current',$health_monitor->getBoardCurrentValue()[0]." mA");
 											echo table_info('Processor Frequency',$health_monitor->getProcessorFrequency()[0]." mHz");
+											echo table_info('Used Memory',$health_monitor->getUsedMemory()[0]." MB");
 										}catch(Exception $e){
 											//echo $e->getMessage();
 											echo "<h3>Host Unavailable</h3>";
