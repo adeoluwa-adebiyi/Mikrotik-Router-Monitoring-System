@@ -9,6 +9,7 @@
 		private $boardPowerValueWatts = '1.3.6.1.4.1.14988.1.1.3.12.0';
 		private $boardCurrentValuemA = '1.3.6.1.4.1.14988.1.1.3.13.0';
 		private $processorFrequencyMHz = '1.3.6.1.4.1.14988.1.1.3.14.0';
+		private $usedMemory = '1.3.6.1.2.1.25.2.3.1.6.65536';
 
 		public function __construct($SNMP_Connector){
 			$this->conn = $SNMP_Connector;
@@ -29,6 +30,10 @@
 		public function getProcessorFrequency(){
 			return $this->conn->getRouterProperty($this->processorFrequencyMHz);
 		}
+		public function getUsedMemory(){
+			return $this->conn->getRouterProperty($this->usedMemory);
+		}
+
 	}
 
 ?>
