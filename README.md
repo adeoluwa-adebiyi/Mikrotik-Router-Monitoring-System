@@ -1,6 +1,8 @@
 # Mikrotik-Router-Monitoring-System
 SNMP bases Router Monitoring System for Mikrotik Routers
 
+This was never meant for prod lol :), use at your own risk, this a test project. Modern automated security systems crack me up :)
+
 NB: This PHP Web application communicates with a MySQL server. Database schema located in database.sql file.
 
 ## Features
